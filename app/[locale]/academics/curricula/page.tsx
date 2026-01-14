@@ -123,6 +123,6 @@ const Courses = async ({ page }: { page: number }) => {
           </TableCell>
         </TableRow>
       )
-    )
-});
+    );
+  });
 };

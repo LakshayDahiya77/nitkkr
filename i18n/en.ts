@@ -1,3 +1,4 @@
+import { title } from 'process';
 import type { Translations } from './translations';
 
 const text: Translations = {
@@ -625,69 +626,67 @@ const text: Translations = {
       },
       scst: {
         title: 'SC & ST Cell',
-        description:
-          [
-          'NIT Kurukshetra is committed to maintaining a work environment wherein students, faculty, and staff members from different community can work in a coherent environment. It is the institute\'s endeavor to ensure that no discrimination takes place at workplace.',
+        description: [
+          "NIT Kurukshetra is committed to maintaining a work environment wherein students, faculty, and staff members from different community can work in a coherent environment. It is the institute's endeavor to ensure that no discrimination takes place at workplace.",
           'The Institute has appointed a Liaison Officer for SC & ST cell who can be contacted in the event of any incident of caste-based discrimination.',
-          'SC & ST cell has been constituted in NIT-Kurukshetra (An Institution of National Importance) w.e.f. 24th August, 2017 as per the instructions of the Government of India, Ministry of Personal, Public Grievances and Pension (Department of Personal and Training) vide office memorandum No. 43011/153/2010-Estt.(Res) dated 4th January 2013.'
-          ],
-        cellFunctionsHeading:'CELL FUNCTIONS',
-        cellFunctions:
-        [
+          'SC & ST cell has been constituted in NIT-Kurukshetra (An Institution of National Importance) w.e.f. 24th August, 2017 as per the instructions of the Government of India, Ministry of Personal, Public Grievances and Pension (Department of Personal and Training) vide office memorandum No. 43011/153/2010-Estt.(Res) dated 4th January 2013.',
+        ],
+        cellFunctionsHeading: 'CELL FUNCTIONS',
+        cellFunctions: [
           'Grievances redress the grievances of SC/ST students and employees and render them necessary help in solving their academic as well as administrative problems.',
           'Monitors and evaluates the reservation policies and other programs intended for SC/STs by the Government of India for their effective implementation at National Institute of Technology Kurukshetra.',
           'Suggests the follow-up measures to the administration of the institute to achieve the objectives and targets laid down by MHRD for the empowerment of SC/STs.',
           'To register the complaints of SC/ST students/employees of the Institute for their representation to the administration for taking further necessary action.',
-          'Ensuring due compliance by the subordinate appointing authorities with the orders and instructions pertaining to the reservation of vacancies in favour of Scheduled Castes, Scheduled Tribes and Other Backward Classes and other benefits admissible to them.'
+          'Ensuring due compliance by the subordinate appointing authorities with the orders and instructions pertaining to the reservation of vacancies in favour of Scheduled Castes, Scheduled Tribes and Other Backward Classes and other benefits admissible to them.',
         ],
-        complaint: 'In case you want to register a formal complaint, please fill out the form in the complaint book, which is available in SC & ST Cell, Administrative Building, NIT Kurukshetra. The committee will look into the discrimination complaints received from SC & ST Students, faculty, and staff members and resolve such complaints.',
+        complaint:
+          'In case you want to register a formal complaint, please fill out the form in the complaint book, which is available in SC & ST Cell, Administrative Building, NIT Kurukshetra. The committee will look into the discrimination complaints received from SC & ST Students, faculty, and staff members and resolve such complaints.',
         liaisonOfficerHeading: 'LIAISON OFFICER',
-        liaisonOfficer : {
+        liaisonOfficer: {
           image: 'fallback/user-image.jpg',
           name: 'Arun Goel',
           title: 'Professor (Head of the Department)',
           email: 'drarun_goel@yahoo.co.in',
-          phone: '01744-233349, 01744-233300'
+          phone: '01744-233349, 01744-233300',
         },
         importantLinksHeading: 'IMPORTANT LINKS',
-        importantLinks:
-        [
+        importantLinks: [
           {
             title: 'Ministry of Social Justice and Empowerment',
-            link: 'https://socialjustice.gov.in'
+            link: 'https://socialjustice.gov.in',
           },
           {
             title: 'List of Scheduled Castes',
-            link: 'https://socialjustice.gov.in/common/76750'
+            link: 'https://socialjustice.gov.in/common/76750',
           },
           {
             title: 'List of Scheduled Tribes',
-            link: 'https://cdnbbsr.s3waas.gov.in/s301894d6f048493d2cacde3c579c315a3/uploads/2022/03/2022030426.pdf'
+            link: 'https://cdnbbsr.s3waas.gov.in/s301894d6f048493d2cacde3c579c315a3/uploads/2022/03/2022030426.pdf',
           },
           {
             title: 'National Commission for Scheduled Cast, GoI',
-            link: 'https://ncsc.nic.in'
+            link: 'https://ncsc.nic.in',
           },
           {
             title: 'National Commission for Scheduled Tribes, GoI',
-            link: 'https://ncstgrams.gov.in'
+            link: 'https://ncstgrams.gov.in',
           },
           {
             title: 'SC & ST Cell AICTE',
-            link: 'https://www.aicte.gov.in/bureaus/administration/scst-cell'
-          }
+            link: 'https://www.aicte.gov.in/bureaus/administration/scst-cell',
+          },
         ],
       },
       obcpwd: {
         title: 'OBC & PWD Cell',
         description: [
-          'NIT Kurukshetra is committed to maintaining a work environment where students, faculty, and staff members from different communities can work together harmoniously. It is the institute\'s endeavor to ensure that no discrimination takes place in the workplace. The Institute has appointed a Liaison Officer for the OBC Cell, who can be contacted in the event of any caste-based discrimination.'
+          "NIT Kurukshetra is committed to maintaining a work environment where students, faculty, and staff members from different communities can work together harmoniously. It is the institute's endeavor to ensure that no discrimination takes place in the workplace. The Institute has appointed a Liaison Officer for the OBC Cell, who can be contacted in the event of any caste-based discrimination.",
         ],
         cellFunctionsHeading: 'CELL FUNCTIONS',
         cellFunctions: [
           'To ensure proper implementation of various schemes of MHRD, GoI, and the State Government concerning scholarships, stipends, etc., for the welfare of reserved categories.',
           'Grievance Redressal: for any grievance(s) regarding academic, administrative, or social issues. The cell takes necessary action and provides advice/help to resolve the matter.',
-          'To take follow-up measures to achieve the objectives and targets laid down by MHRD, Government of India.'
+          'To take follow-up measures to achieve the objectives and targets laid down by MHRD, Government of India.',
         ],
         complaint:
           'In case you want to register a formal complaint, please fill out the form in the complaint book, available in the OBC Cell, Administrative Building, NIT Kurukshetra. The committee will review discrimination complaints received from OBC students, faculty, and staff members and resolve them accordingly.',
@@ -697,15 +696,15 @@ const text: Translations = {
           name: 'Arun Goel',
           title: 'Professor & Head of Department',
           email: 'drarun_goel@yahoo.co.in',
-          phone: '01744-233349, 01744-233300'
-        }
-      }
+          phone: '01744-233349, 01744-233300',
+        },
+      },
     },
   },
   NotFound: {
     title: '404',
     description: 'Not found ',
-    backHome: 'Looks like you\'re lost let\'s get you back home',
+    backHome: "Looks like you're lost let's get you back home",
   },
   Profile: {
     tabs: {
@@ -1851,6 +1850,98 @@ rolls down to 60% of the eligible students for second round of placement session
           `No. There is no fee associated with the registration or the placement process.`,
         ],
       ],
+    },
+  },
+
+  // SCoE
+  SCoE: {
+    welcome: 'Siemens Centre of Excellence (SCoE)',
+    admission: {
+      title: 'Admission Process & Education System',
+      process: {
+        title: 'Admission Procedure',
+        content: [
+          'Siemens Centre of Excellence (SCOE) is a premier arm of National Institute of Technology, Kurukshetra (Institution of National Importance) which aims to build capacity in Design and Manufacturing with the latest and highly robust technology-driven solutions.',
+          'The facility is dedicated to performing these solutions-driven engagements for both Industry and academia.',
+          'The infrastructure available at the Centre can take up real-time projects in the field of design and manufacturing for industrial, service and other sectors.',
+          'Also, there is opportunity of consulting and research operations which is benefited by latest hardware and software deployed at the Centre. The center team not only includes experienced professionals with practical exposure of dealing with industrial processes and troubleshoot but also is supported by highly experienced academia fraternity of NIT Kurukshetra for adding value to the  deliverable. SCOE is dedicated to the growth of technology driven society with focus on uplifting both regional and national perspectives.',
+        ],
+      },
+      education: {
+        title: 'Education System',
+        content: [
+          'The Education System of the Institute is divided into academic sessions comprising of two semesters – Even and Odd semester. The Institute offers courses of study leading to B.Tech and M.Tech. degree and research facilities leading to the degree of Doctor of Philosophy. The small of instructions and examination is English. The Institute has assumed the status of a Deemed University w.e.f. 26.6.2002. The Institute is now independent in every respect relating to academic work such as Examinations, evaluation of the answer sheets, declaration of results and other allied matters. The Institute has switched over from the conventional examination and evaluation system to the Credit Based Examination System.',
+          'The courses include study at the Institute, visits to work sites and practical training in the Institute Workshops and in approved Engineering works. There is a semester examination at the end of each semester.',
+        ],
+      },
+    },
+    Notifications: {
+      title: 'Notifications',
+    },
+    Vision: {
+      title: 'Vision',
+      description:
+        'To be a globally recognized and leading Centre for skill development, training, and translational research for empowering indigenous manufacturing.',
+    },
+    VisionMissionImage: {
+      src: 'fallback/user-image.jpg', // put your image here
+    },
+
+    Mission: {
+      title: 'Mission',
+      points: [
+        'To empower Indian youth with industry-relevant skills in manufacturing technologies through education and training, enabling rewarding employment opportunities.',
+        'To develop capabilities and build capacity for indigenous manufacturing in collaboration with industry, academia, and government agencies.',
+        'To provide access to state-of-the-art machinery and software tools for innovative design and development of new manufacturing technologies.',
+      ],
+    },
+    Head: {
+      title: 'HEAD OF SCoE',
+      facultyIncharge: [
+        {
+          name: 'Dr. Anil Kumar',
+          title: 'Professor & Head, Siemens Centre of Excellence',
+          image: 'fallback/user-image.jpg',
+          email: 'anil.kumar@nitkkr.ac.in',
+          phone: '+91-XXXXXXXXXX',
+        },
+      ],
+    },
+
+    Features: {
+      title: 'Features',
+      items: [
+        'Research Experience',
+        'Services & Solutions',
+        'Skills, Talent & Ability',
+        'Technology Driven Learning',
+        'Unlock Innovation',
+      ],
+    },
+    Laboratories: {
+      title: 'Laboratories',
+      srNo: 'S. No.',
+      LaboratoriesName: 'Laboratory',
+    },
+
+    How_to_Apply: {
+      title: 'How to Apply',
+      registrationSteps: [
+        'Submit the “Student Registration Form” (click on the SCoE dropdown menu to access this form).',
+        'The SCoE team will contact you to share details of the registered course.',
+        'Payment link/details will be sent to your registered email ID from scoe@nitkkr.ac.in.',
+        'Share the payment receipt/confirmation to scoe@nitkkr.ac.in with the subject line: [Re: Payment receipt for enrolment in SCoE program “Program Name”].',
+        'A confirmation email will be sent containing your UID details and training schedule.',
+        'Join the induction program as per the communicated schedule.',
+      ],
+    },
+    For_Queries: {
+      title: 'For Queries',
+    },
+    Courses: {
+      title: 'Courses',
+      srNo: 'S. No.',
+      courseName: 'Course Name',
     },
   },
 };
